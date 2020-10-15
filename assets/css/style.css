@@ -42,7 +42,7 @@ body{
 .nav_left{
   width: 30%;
   float: left;
-  text-align: left;
+  text-align: right;
 }
 .logo, .nav_left a, .nav_right a{
   color: white;
@@ -99,13 +99,11 @@ body{
   height: 140px;
   text-align: center;
 }
-
 .row_1 h2{
   font-size: 25px;
   font-weight: 500;
   padding-top: 40px;
 }
-
 .row_1 span{
   font-size: 18px;
   font-weight: 400;
@@ -113,6 +111,48 @@ body{
   line-height: 40px;
 }
 
+/* row_2 */
+.row_2{
+  height: 490px;
+  background-color: white;
+  width: 100%;
+  border-bottom:
+}
+.col_1, .col_2, .col_3{
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 0 25px;
+}
+.row_2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+ .img_col{
+   height: 150px;
+   margin-top: 50px;
+ }
+.title_col{
+  color: #7BBC02;
+  font-size: 26px;
+  padding: 25px 0;
+  font-weight: 500;
+}
+.parag_col{
+  font-size: 16px;
+  color: grey;
+  padding: 25px 0;
+  line-height: 24px;
+}
+.col_1 hr, .col_2 hr, .col_3 hr{
+  width: 100px;
+  transform: translateX(145px);
+
+}
+.special{
+  margin-bottom: 30px;
+}
 
 
 
@@ -137,5 +177,5 @@ body{
 }
 .bg_container{
   margin: auto;
-  width: 80%;
+  width: 1332px;
 }
