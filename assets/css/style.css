@@ -23,9 +23,6 @@ body{
 
 
 /* navbar */
-.site_header{
-  height: 550px;
-}
 .navbar{
   height: 80px;
   line-height: 80px;
@@ -154,48 +151,87 @@ body{
 }
 
 
-.row_3{
-  height: 470px;
-}
-
+/* row_3 */
 .col_sx{
   width: 50%;
   float: left;
 }
-
 .img_coldx{
   padding-top: 30px;
   padding-left: 60px;
   height: 520px;
 }
-
 .col_dx{
   width: 50%;
   float: left;
   margin-top: 50px;
   margin-left: 10
 }
-
 .col_dx h2{
   font-size: 32px;
   font-weight: 500;
   padding-top: 40px;
   margin-bottom: 15px;
 }
-
 .col_dx span{
   font-size: 20px;
   font-weight: 400;
   color: grey;
 }
-
 .row_3::after{
   content: "";
   display: table;
   clear: both;
+  padding-bottom: 20px;
 }
 
 
+/* footer */
+footer{
+  height: 150px;
+}
+.footer_sx{
+  width: 50%;
+  float: left;
+}
+.footer_dx{
+  width: 50%;
+  float: left;
+  line-height: 160px;
+}
+.site_footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+h3{
+  width: 50%;
+  text-align: left;
+  line-height: 160px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.selection{
+  color: grey;
+  float: left;
+}
+.btn_footer a{
+  color: white;
+  padding: 20px 30px;
+  background-color: #7CBB02;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.btn_footer{
+  float: left;
+}
+.footer_dx::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
@@ -221,10 +257,4 @@ body{
   background-color: #7CBB02;
   padding: 5px 20px;
   border-radius: 5px;
-}
-.site_main{
-  height: 300px;
-}
-.site_footer{
-  height: 300px;
 }
