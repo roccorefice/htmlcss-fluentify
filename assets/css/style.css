@@ -8,6 +8,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+
 /* background color */
 .bg_blue{
   background: #0C325A;
@@ -20,16 +21,15 @@ body{
 }
 /* background color */
 
-/* header */
+
+/* navbar */
 .site_header{
   height: 550px;
 }
-
 .navbar{
   height: 80px;
   line-height: 80px;
 }
-
 .logo{
   width: 15%;
   float: left;
@@ -44,22 +44,18 @@ body{
   float: left;
   text-align: left;
 }
-
 .logo, .nav_left a, .nav_right a{
   color: white;
 }
-
 .nav_left a, .nav_right a{
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 11px;
 }
-
 .nav_right a:hover{
   color: #e3ba3c;
 }
-
 .navbar::after{
   content: "";
   display: table;
@@ -67,17 +63,67 @@ body{
 }
 
 
+/* banner */
+.banner{
+  height: 470px;
+  width: 100%;
+  background-image: url("../img/banner_header.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 115% 115%;
+}
+.text_banner{
+  color: white;
+  margin-left: 10%;
+  font-weight: 500;
+  margin-top: 5%;
+  font-size: 50px;
+}
+.btn_banner{
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.btn_banner a{
+  color: white;
+  padding: 20px 30px;
+  background-color: #7CBB02;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+
+/* row_1 */
+.row_1{
+  height: 140px;
+  text-align: center;
+}
+
+.row_1 h2{
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+.row_1 span{
+  font-size: 18px;
+  font-weight: 400;
+  color: grey;
+  line-height: 40px;
+}
 
 
 
+
+
+/* utility class */
 .btn_special{
   border: 1px solid white;
   border-radius: 5px;
   margin-right: 20px;
   padding: 0 50px;
-
 }
-
 .btn{
   background-color: #7CBB02;
   padding: 5px 20px;
