@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* background color */
+.bg_blue{
+  background: #0C325A;
+}
+.bg_green{
+  background: #7CBB02
+}
+.bg_grey{
+  background: #D3D3D3
+}
+/* background color */
+
+/* header */
+.site_header{
+  height: 550px;
+}
+
+.navbar{
+  height: 80px;
+  line-height: 80px;
+}
+
+.logo{
+  width: 15%;
+  float: left;
+  margin-top: 10px;
+}
+.nav_right{
+  width: 55%;
+  float: left;
+}
+.nav_left{
+  width: 30%;
+  float: left;
+  text-align: left;
+}
+
+.logo, .nav_left a, .nav_right a{
+  color: white;
+}
+
+.nav_left a, .nav_right a{
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.nav_right a:hover{
+  color: #e3ba3c;
+}
+
+.navbar::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+.btn_special{
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 0 50px;
+
+}
+
+.btn{
+  background-color: #7CBB02;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.site_main{
+  height: 300px;
+}
+.site_footer{
+  height: 300px;
+}
+.bg_container{
+  margin: auto;
+  width: 80%;
+}
