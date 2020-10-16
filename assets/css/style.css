@@ -9,7 +9,7 @@ body{
 }
 
 
-/* background color */
+/* utility class */
 .bg_blue{
   background: #0C325A;
 }
@@ -19,7 +19,12 @@ body{
 .bg_grey{
   background: #D3D3D3
 }
-/* background color */
+.bg_container{
+  margin: auto;
+  width: 1332px;
+}
+/* utility class */
+
 
 
 /* navbar */
@@ -58,6 +63,19 @@ body{
   display: table;
   clear: both;
 }
+}
+.btn_special{
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 0 50px;
+}
+.btn{
+  background-color: #7CBB02;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
 
 
 /* banner */
@@ -91,6 +109,7 @@ body{
 }
 
 
+
 /* row_1 */
 .row_1{
   height: 140px;
@@ -107,6 +126,7 @@ body{
   color: grey;
   line-height: 40px;
 }
+
 
 
 /* row_2 */
@@ -151,6 +171,7 @@ body{
 }
 
 
+
 /* row_3 */
 .col_sx{
   width: 50%;
@@ -186,6 +207,7 @@ body{
 }
 
 
+
 /* footer */
 footer{
   height: 150px;
@@ -212,12 +234,12 @@ h3{
   font-weight: 500;
 }
 .selection{
+  display: inline-block;
   color: grey;
-  float: left;
 }
 .btn_footer a{
   color: white;
-  padding: 20px 30px;
+  padding: 20px 10px;
   background-color: #7CBB02;
   border-radius: 5px;
   text-decoration: none;
@@ -225,36 +247,8 @@ h3{
   font-size: 14px;
 }
 .btn_footer{
-  float: left;
-}
-.footer_dx::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-
-
-
-
-
-
-
-/* utility class */
-.bg_container{
-  margin: auto;
-  width: 1332px;
-}
-.btn_special{
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-right: 20px;
-  padding: 0 50px;
-}
-.btn{
-  background-color: #7CBB02;
-  padding: 5px 20px;
-  border-radius: 5px;
+padding-left: 300px;
+transform: translateY(300px;)
+text-align: right;
+display: inline-block;
 }
